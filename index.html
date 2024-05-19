@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>verlvl calculator</title>
+        <script>
+            async function getAnswer() {
+               const element = document.getElementById("answer");
+               element.innerHTML = `<h1>Sar I don't know answer, take paper and pencil and add yourself and see</h1>
+               <img src='/pathale.gif'/>`
+
+            }
+        </script>
+    </head>
+    <body>
+        <h1>verlvl calculator</h1>
+
+        <input type="number" name="text" id="text1" class="text1" placeholder="first number"><p>+</p>
+        <input type="number" name="text" id="text2" class="text2" placeholder="second number"><p></p>=
+        <button onclick='getAnswer()' type="button">answer</button>
+        <br><br>
+        <div id="answer"></div>
+       
+    </body>
+</html>
